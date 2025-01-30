@@ -1,9 +1,15 @@
 name: First Workflow
 
+run-name: ${{github.com}}
+
 on: push
 
 jobs:
  job1:
   runs-on: ubuntu-latest
   steps: 
-    - run: echo "display the workflow"
+    - run: echo "display the workflow for ubuntu"
+ job2:
+  runs-on: ubuntu-latest
+  steps: 
+    - run: echo "display the workflow for ubuntu-2"
