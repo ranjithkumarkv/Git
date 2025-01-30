@@ -3,8 +3,8 @@ name: First Workflow
 run-name: ${{github.actor}}
 
 on:
- fork:
-    types: [created]
+ pull_request:
+    types: [opened, synchronize, reopened]
 
 jobs:
  job1:
