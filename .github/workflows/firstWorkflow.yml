@@ -2,7 +2,7 @@ name: First Workflow
 
 run-name: ${{github.actor}}
 
-on: issues
+on: pull_request
 
 jobs:
  job1:
