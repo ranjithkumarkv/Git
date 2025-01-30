@@ -1,6 +1,6 @@
 name: First Workflow
 
-run-name: ${{github.com}}
+run-name: ${{github.actor}}
 
 on: push
 
