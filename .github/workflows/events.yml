@@ -6,7 +6,7 @@ on:
    - opened
    - syncronized
   branches: 
-   - master
+   - main
 jobs: 
  echo-jobs: 
   runs-on: ubuntu-latest
