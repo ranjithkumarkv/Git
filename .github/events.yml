@@ -12,4 +12,4 @@ jobs:
  echo-jobs:
   runs-on: ubuntu-latest
   steps:
-   - run: echo"Run whenever PR is opened or syncronised"
+   - run: echo"Run whenever PR is opened or syncronised" 
