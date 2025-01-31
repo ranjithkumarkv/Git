@@ -1,0 +1,14 @@
+name: Event with filter and activity types
+ 
+on: 
+ pull_request:
+  types:
+   - opened
+   - syncronized
+  branches: 
+   - master
+jobs: 
+ echo-jobs: 
+  runs-on: ubuntu-latest
+  steps:
+   - run: echo "Run whenever PR opened"
